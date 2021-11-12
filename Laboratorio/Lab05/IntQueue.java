@@ -23,10 +23,27 @@ public class IntQueue {
 	 * Funzione di astrazione:
 	 *	AF(elems, head, tail) = [elems[head], elems[head+1], ..., elems[(tail % elems.lenght)-1] se head ≥ 0, altrimenti [] se head == -1]
 	 * 
+	 *	RI(elems, head, tail) = -1 ≤ head < elems.lenght,
+	 *													0 ≤ tail < elems.lenght,
+	 *													head = - 1 tail = 0
+	 *													elems not null,
+	 *													la coda non contiene mai più elementi della sua dimensione
+	 *
 	 * */
 
 	// Costruttori
+	/**
+	 * Post-condition: costruisce una istanza che rappresenta una coda vuota di dimensione size
+	 *	
+	 *
+	 * */
+	public IntQueue(int size) {}
 
 	// Metodi
+	enqueue();
+
+	dequeue();
+
+	isEmpty();
 
 }
