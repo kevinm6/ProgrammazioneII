@@ -1,4 +1,4 @@
-#ASTRAZIONE
+# ASTRAZIONE
 
 | Specificazione  | Parametrica |
 | ------ | ------- |
@@ -8,9 +8,9 @@
 
 ---
 
-###*Tipo di dato*###
+## *Tipo di dato*
+
 - Informazioni
 - Competenze
 
 Paradigma Orientato agli Oggetti  | Linguaggio supporta oggetti
-

@@ -1,0 +1,54 @@
+# Lez06
+
+---
+
+## ECCEZIONI
+
+> ROBUSTO
+>
+> GRATEFUL DEGRADATION
+
+---
+
+## SEGNALAZIONE PROBLEMA
+
+## TERMINAZIONE
+
+---
+
+### SPECIFICARE
+
+- REQUIRES
+- MODIFIES
+- EFFECTS
+    > THROWS
+
+---
+
+### IMPLEMENTARE
+
+- OGGETTI, GERARCHIA
+  
+ > CHECKED
+
+ > UNCHECKED
+
+
+- DEFINIRE
+
+- SOLLEVARE  -> THROW   new E("")
+
+- GESTIRE
+
+> PROPAGARE
+
+---
+
+### PRASSI
+
+- sacrificio | ...
+
+- RIFLETTERE (ASTRAZIONE)
+
+		MASK 
+		> ERRORE ≠ ECCEZIONE 
