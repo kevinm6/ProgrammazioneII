@@ -21,7 +21,7 @@ public class IntQueue {
 
 	/**
 	 * Funzione di astrazione:
-	 *	AF()
+	 *	AF(elems, head, tail) = [elems[head], elems[head+1], ..., elems[(tail % elems.lenght)-1] se head ≥ 0, altrimenti [] se head == -1]
 	 * 
 	 * */
 
