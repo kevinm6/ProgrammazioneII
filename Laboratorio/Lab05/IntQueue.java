@@ -132,11 +132,24 @@ public class IntQueue {
 
 	@Override
 	public boolean equals(Object o) {
-		
-		
+		if (o instanceof IntQueue) {
+			 IntQueue other = (IntQueue)o;
+			 if (this.size() != other.size()) return false;
+
+			 for (int i = 0, j = 0; i < size(); i++, j++)
+				 if ( this.elems[(this.head + i) % this.elems.length] != other.elems[(other.head + j) % other.elems.length] )
+					 return false;
+			 return true;
+		}
+		 return false;
 	}
 
-
+	@Override
+	public boolean equals(Object o) {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+		
+	}
 
 
 }
