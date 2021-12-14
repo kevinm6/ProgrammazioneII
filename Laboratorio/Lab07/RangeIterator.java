@@ -1,3 +1,8 @@
+/* 
+ * Kevin Manca
+ * Matricola 978578
+ */
+
 import java.util.*;
 
 public class RangeIterator {
@@ -30,7 +35,7 @@ public class RangeIterator {
 				hasNext = step > 0 ? next < end : end < next;
 			}
 			return hasNext;
-		}
+		};
 	}
 
 

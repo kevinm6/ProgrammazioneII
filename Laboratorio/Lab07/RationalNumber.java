@@ -1,3 +1,7 @@
+/*
+ * Kevin Manca
+ * Matricola 978578
+ */
 import java.util.*;
 
 
@@ -87,8 +91,7 @@ public class RationalNumber {
 			b = a % b;
 			a = tmp;
 		}
-		return ;
-
+		return a;
 	}
 
 
