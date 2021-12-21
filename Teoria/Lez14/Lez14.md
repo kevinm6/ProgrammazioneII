@@ -33,5 +33,29 @@
 | --- | --- |
 
 + stesso NOME  
-+ = # parametri
-    tipo "
++ = # parametri  
+    tipo "  
+
+> **CONTROVARIABILI**  
+>
+> + < RETURN TYPE
+> + ≤ ECCEZIONI  
+> + ≈ VISIBILITÅ  
+
+---
+
+#### PROPRIETÀ
+
+∀ π che vale per T  
+  => π vale anche per S   
+
+  NON vale ∃ π vale T non su S
+
+---
+
+##### EQUALS + sottotipo
+
+> + **EXTENDS**  
+> + **COMP + DELEGA**  
+
+
