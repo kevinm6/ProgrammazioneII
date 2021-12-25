@@ -4,7 +4,7 @@
 *	MapExample.java
 */
 
-package it.unimi.di.prog2.e07;
+package Lez15;
 
 import java.util.ArrayList;
 import java.util.List;
