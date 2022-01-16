@@ -23,8 +23,7 @@ public class Box<E> {
 		Box b1 = new Box(Integer.valueOf(3));
 
 		System.out.println(
-			((String)b0.get()).lenght() + ((String)b1.get()).lenght();
-		)
+			((String)b0.get()).lenght() + ((String)b1.get()).lenght());
 	}
 	
 

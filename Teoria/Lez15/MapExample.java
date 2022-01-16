@@ -1,4 +1,4 @@
-/**
+/*
 *	Kevin Manca
 *	Matricola 978578
 *	MapExample.java
@@ -12,6 +12,7 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.Collections;
 
+import java.io.*;
 
 public class MapExample {
 	
