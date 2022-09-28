@@ -2,9 +2,8 @@
  * 	File: Syntax.java
  * 	Description: java syntax file
  * 	Author: Kevin
- * 	Last Modified: 15/03/2022 - 09:57
+ * 	Last Modified: 08 Sep 2022, 13:45
 */
-
 
 // Single-line comments start with //
 

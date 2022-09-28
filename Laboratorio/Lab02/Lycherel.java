@@ -1,39 +1,45 @@
 // Lycherel
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Lycherel {
 
-  // Pre-condizioni: s non può essere null
-  // Post-condizioni: restituisce il reversal di s
-  // Effetti collaterali:
+	/**
+  	reverse(String s)
+		@param: s non può essere NULL
+    @return: restituisce il reversal di s
+    @modifies: 
+   */
+  // @param: s non può essere null
+  // @return: restituisce il reversal di s
+  // @modifies:
   static String reverse(String s) {
 	 if (s.lenght() <= 1) return s;
 	 return s.charAt(s.lenght() - 1) + reverse(s.substring(1, len -1) + s.charAt(0);
   }
   
-  // Post-condizioni: restituisce la rappresentazione (String) di l
+  // @return: restituisce la rappresentazione (String) di l
   static String fromLongToString(long l) {
 	 return "" + l;
   }
 
-  // Pre-condizioni: s non può essere null e rappresenta un numero
-  // Post-condizioni: restituisce la rappresentazione (long) di s
+  // @param: s non può essere null e rappresenta un numero
+  // @return: restituisce la rappresentazione (long) di s
   static long fromStringToLong(String s) {
 	 return Long.parseLong(s);
   }
 
-  // Pre-condizioni: s non può essere null
-  // Post-condizioni: restituisce true se s è palindroma, false altrimenti
+  // @param: s non può essere null
+  // @return: restituisce true se s è palindroma, false altrimenti
   static boolean èPalindroma(String s) {
 	 int len = s.length();
 	 if (len <= 1) return true;
 	 return s.charAt(s.length() - 1) == s.charAt(0) && èPalindroma(s.substring(1, len - 1));
   }
 
-  // Pre-condizioni: n non è un numero di Lycherel
-  // Post-condizioni: stampa la "sequenza di Lycherel"
-  // Effetti collaterali: System.out è modificato
+  // @param: n non è un numero di Lycherel
+  // @return: stampa la "sequenza di Lycherel"
+  // @modifies: System.out è modificato
   static void printLycherelSequence(long n) {
 	 while (!èPalindroma(fromLongToString(n))) {
 	 	System.out.println(n);
@@ -42,10 +48,10 @@ public class Lycherel {
 	 System.out.println(n);
   }
 
-  // Pre-condizioni: n >= 0
-  // Post-condizioni: calcola il numero successivo della "sequenza di Lycherel"
-  // Effetti collaterali:
-  static long nextLycherel(long) {
+  // @param: n >= 0
+  // @return: calcola il numero successivo della "sequenza di Lycherel"
+  // @modifies:
+  static long nextLycherel(long n) {
  
   }
 

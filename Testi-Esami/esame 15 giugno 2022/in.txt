@@ -1,0 +1,6 @@
+primo@dominio.baz = aasd, basd, casd
+secondo@dominio2.baz = easd, sdf, gasd
+terza = primo
+quarta += secondo
+terza += quarta
+terza

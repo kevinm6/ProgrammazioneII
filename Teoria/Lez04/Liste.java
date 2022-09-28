@@ -14,4 +14,3 @@ public class Liste {
 		System.out.println(lista);
 	}
 }
-

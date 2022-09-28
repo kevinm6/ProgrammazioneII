@@ -1,8 +1,8 @@
-# Lez05
+| # Lez05 |
 
 ---
 
-## Astrazione Procedurale
+| ## Astrazione Procedurale |
 
 
 
@@ -24,7 +24,7 @@
 
 > *Comprendere*
 >
-> *Ragionare*
+| > *Ragionare* |
 
 
 

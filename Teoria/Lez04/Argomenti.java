@@ -5,10 +5,9 @@ public class Argomenti {
 		  Scanner s = new Scanner(System.in);
 		 	while (s.hasNext()) {
 				String parola = s.next();
-				
 
-		 	}
-		 
+ 	}
+			 
 		 */
 
 
